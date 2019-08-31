@@ -188,7 +188,7 @@ p {
 }
 @media (max-width: 500px) {
   .nav-container nav ul {
-    width: 80%;
+    width: 90%;
   }
 }
 .nav-container nav ul li {
@@ -196,7 +196,8 @@ p {
 }
 @media (max-width: 500px) {
   .nav-container nav ul li {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 800;
   }
 }
 .nav-container nav ul li a {
