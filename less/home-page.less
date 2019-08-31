@@ -57,6 +57,18 @@
       .btn {
         .buttonstyling(6px; 10px);
         width: 120px;
+        a {
+          .navstyling();
+          color: white;
+        }
+        &:hover {
+          background-color: lightgrey;
+          transition: all 0.3s ease;
+          a {
+            color: black;
+            transition: all 0.3s ease;
+          }
+        }
       }
     }
 
