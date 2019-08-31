@@ -1,1 +1,21 @@
 // Mixins Here
+
+.flex-center() {
+  display: flex;
+  justify-content: center;
+}
+
+.navstyling() {
+  text-decoration: none;
+  color: @header-font-color;
+}
+
+.buttonstyling(@radius; @padding) {
+  border-radius: @radius;
+  padding: @padding;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
